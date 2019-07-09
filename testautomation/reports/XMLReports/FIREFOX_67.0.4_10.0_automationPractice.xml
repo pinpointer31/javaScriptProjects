@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="automationPractice"
+    errors="1" failures="1" hostname="" id="" package="automationPractice" skipped="0"
+    tests="1" time="8.564" timestamp="">
+  
+    <testcase name="Automation Website basic navigation test" classname="automationPractice" time="8.564" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if the page title equals &#34;Faded Short Sleeve T-shirts - My Store&#34; in 1000 ms. - expected [0;32m&#34;Faded Short Sleeve T-shirts - My Store&#34;[0m but got: [0;31m&#34;T-shirts - My Store&#34;[0m">    at Object.Automation Website basic navigation test (C:\dev\workspace\JS\Projects\javaScriptProjects\testautomation\tests\automationPractice.js:16:9)
+    at processTicksAndRejections (internal/process/task_queues.js:82:5)</failure>
+
+    <failure message="    at Object.Automation Website basic navigation test (C:\dev\workspace\JS\Projects\javaScriptProjects\testautomation\tests\automationPractice.js:16:9)">    at processTicksAndRejections (internal/process/task_queues.js:82:5)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

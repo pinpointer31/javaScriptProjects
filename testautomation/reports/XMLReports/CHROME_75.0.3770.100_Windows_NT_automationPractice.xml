@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="automationPractice"
+    errors="0" failures="0" hostname="" id="" package="automationPractice" skipped="0"
+    tests="1" time="9.345" timestamp="">
+  
+    <testcase name="Automation Website basic navigation test" classname="automationPractice" time="9.345" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

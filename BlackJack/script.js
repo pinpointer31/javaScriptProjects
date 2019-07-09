@@ -3,6 +3,8 @@
 //by Zoltan Timar
 //
 
+//TODO if there are two aces rolled, the first ace should be worth 11 points and the second should be 1
+
 let suits = ["Hearts", "Clubs", "Diamonds", "Spades"];
   
 let values = ["Ace", "King", "Queen", "Jack",
@@ -53,12 +55,14 @@ newGameButton.addEventListener("click", function() {
 
 hitButton.addEventListener("click", function(){
   playerCards.push(getNextCard());
+  updateScores();
   checkForEndOfGame();
   showStatus();
 });
 
 stayButton.addEventListener("click", function(){
   gameOver = true;
+  updateScores();
   checkForEndOfGame();
   showStatus();
 });
@@ -131,8 +135,6 @@ let hasAce = false;
 
 for (let i = 0; i < cardArray.length; i++){
   let card = cardArray[i];
-  score += getCardNumericValue(card);
-  
   if (card.value === "Ace"){
     hasAce = true;
   }
@@ -140,7 +142,7 @@ for (let i = 0; i < cardArray.length; i++){
 if(hasAce && (score + 10) <= 21){
   return score + 10;
 }
-
+score += getCardNumericValue(card);
 return score;
 }
 
