@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="automationTest"
+    errors="0" failures="0" hostname="" id="" package="automationTest" skipped="0"
+    tests="2" time="10.41" timestamp="">
+  
+    <testcase name="Searching for Interstellar" classname="automationTest" time="4.451" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Navigating to Interstellar IMDb page" classname="automationTest" time="5.957" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

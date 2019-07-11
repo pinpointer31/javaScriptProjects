@@ -1,0 +1,17 @@
+{
+  "name": "learnautomation",
+  "version": "1.0.0",
+  "description": "The primary objective is to learn automation Testing in nightwatch.",
+  "main": "nightwatch.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Zoltan Timar",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^1.1.13"
+  }
+}
