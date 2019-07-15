@@ -1,5 +1,17 @@
+const imdb = require('./imdbSearch')
+require('../../pages/imdbPage_actor')
+
 module.exports = {
     tags: ['imdbActorSearch'],
+    before : async browser => {
+       imdb.before (browser);
+       await imdb["Clicking on randomly chosen star"](browser);
+    },
+    after : browser => {
+        browser.end(()=>{
+            browser.verify.ok(true, 'Browser closed without error.')
+        })
+    },
     'List out four movies and related news of chosen actor ' : async browser => {
         const imdb_actor = browser.page.imdbPage_actor(),
               movie = imdb_actor.elements,

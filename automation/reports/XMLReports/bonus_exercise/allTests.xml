@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="bonus_exercise.allTests"
+    errors="1" failures="0" hostname="" id="" package="bonus_exercise" skipped="3"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+      [0;31m  SyntaxError: Unexpected token {[0m
+[0;90m   import { searchingForInterstellar as search, } from &#34;./allTests.js&#34;;
+          ^
+   
+   SyntaxError: Unexpected token {
+       at Module._compile (internal/modules/cjs/loader.js:720:23)
+       at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+       at Module.load (internal/modules/cjs/loader.js:643:32)
+       at Function.Module._load (internal/modules/cjs/loader.js:556:12)
+       at Module.require (internal/modules/cjs/loader.js:683:19)
+       at require (internal/modules/cjs/helpers.js:16:16)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Searching for Interstellar" classname="bonus_exercise.allTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Clicking on randomly chosen star" classname="bonus_exercise.allTests">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="List out four movies and related news of chosen actor " classname="bonus_exercise.allTests">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

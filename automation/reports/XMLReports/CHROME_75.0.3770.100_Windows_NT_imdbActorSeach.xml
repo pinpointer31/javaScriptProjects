@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="imdbActorSeach"
+    errors="1" failures="0" hostname="" id="" package="imdbActorSeach" skipped="0"
+    tests="1" time="0.02300" timestamp="">
+  
+    <testcase name="List out four movies and related news of chosen actor " classname="imdbActorSeach" time="0.02300" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  Error: A session is required to run this command (locateMultipleElements).[0m
+[0;90m       at listOnTimeout (internal/timers.js:531:17)
+       at processTimers (internal/timers.js:475:7)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

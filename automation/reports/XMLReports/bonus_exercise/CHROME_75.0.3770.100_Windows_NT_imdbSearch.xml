@@ -5,9 +5,11 @@
 
   <testsuite name="bonus_exercise.imdbSearch"
     errors="0" failures="0" hostname="" id="" package="bonus_exercise" skipped="0"
-    tests="1" time="2.322" timestamp="">
+    tests="1" time="1.447" timestamp="">
   
-    <testcase name="Clicking on randomly chosen star" classname="bonus_exercise.imdbSearch" time="2.322" assertions="4">
+    <testcase name="Clicking on randomly chosen star" classname="bonus_exercise.imdbSearch" time="1.447" assertions="5">
+
+    
 
     
 

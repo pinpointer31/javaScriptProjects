@@ -3,11 +3,15 @@
             failures="0"
             tests="1">
 
-  <testsuite name="bonus_exercise.allTests"
+  <testsuite name="bonus_exercise.google"
     errors="0" failures="0" hostname="" id="" package="bonus_exercise" skipped="0"
-    tests="1" time="4.771" timestamp="">
+    tests="1" time="4.140" timestamp="">
   
-    <testcase name="Searching for Interstellar" classname="bonus_exercise.allTests" time="4.771" assertions="5">
+    <testcase name="Searching for Interstellar" classname="bonus_exercise.google" time="4.140" assertions="7">
+
+    
+
+    
 
     
 
