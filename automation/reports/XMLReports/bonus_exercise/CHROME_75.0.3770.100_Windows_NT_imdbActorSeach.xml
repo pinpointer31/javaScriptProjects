@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="bonus_exercise.imdbActorSeach"
+    errors="0" failures="1" hostname="" id="" package="bonus_exercise" skipped="0"
+    tests="1" time="5.228" timestamp="">
+  
+    <testcase name="List out four movies and related news of chosen actor " classname="bonus_exercise.imdbActorSeach" time="5.228" assertions="1">  <failure message="Expected element &lt;div:nth-child(1) &gt; div.knownfor-title-role &gt; a&gt; to be present - element was not found - expected [0;32m&#34;present&#34;[0m but got: [0;31m&#34;not present&#34;[0m">    at C:\dev\workspace\JS\Projects\javaScriptProjects\automation\tests\bonus_exercise\imdbActorSeach.js:17:31
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.List out four movies and related news of chosen actor  (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\tests\bonus_exercise\imdbActorSeach.js:16:16)</failure>
+
+    <failure message="    at C:\dev\workspace\JS\Projects\javaScriptProjects\automation\tests\bonus_exercise\imdbActorSeach.js:17:31">    at Array.forEach (&lt;anonymous&gt;)
+    at Object.List out four movies and related news of chosen actor  (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\tests\bonus_exercise\imdbActorSeach.js:16:16)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

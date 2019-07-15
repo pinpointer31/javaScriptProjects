@@ -1,52 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="2"
             failures="0"
-            tests="5">
+            tests="1">
 
   <testsuite name="bonusExercise"
-    errors="0" failures="0" hostname="" id="" package="bonusExercise" skipped="0"
-    tests="5" time="12.14" timestamp="">
+    errors="2" failures="0" hostname="" id="" package="bonusExercise" skipped="4"
+    tests="1" time="7.260" timestamp="">
   
-    <testcase name="Searching for Interstellar" classname="bonusExercise" time="5.033" assertions="3">
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Navigating to Interstellar IMDb page" classname="bonusExercise" time="5.526" assertions="2">
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Clicking on randomly chosen star" classname="bonusExercise" time="1.395" assertions="1">
-
-    
-    </testcase>
-  
-    <testcase name="Search for at least 4 movies on IMDB and save the movie ratings" classname="bonusExercise" time="0.1360" assertions="4">
-
-    
-
-    
-
-    
-
-    
-    </testcase>
-  
-    <testcase name="Search for news: use one of the main characters and save the link of the page (href)" classname="bonusExercise" time="0.04900" assertions="1">
-
-    
+    <testcase name="Searching for Interstellar" classname="bonusExercise" time="7.260" assertions="0">
     </testcase>
   
 
   
 
+  
+    
+    <testcase
+      name="Navigating to Interstellar IMDb page" classname="bonusExercise">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Clicking on randomly chosen star" classname="bonusExercise">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Using the name of one of the main actors:
+-Search for at least 4 movies on IMDB and save the movie ratings" classname="bonusExercise">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Search for news: use one of the main characters and save the link of the page (href)" classname="bonusExercise">
+      <skipped />
+    </testcase>
+    
   
   </testsuite>
 </testsuites>
