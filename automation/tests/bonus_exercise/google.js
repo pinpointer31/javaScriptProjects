@@ -1,35 +1,17 @@
-require('../../pages/googlePage');
+const utils = require('../../pages/utils/googleUtils')
 
 module.exports = {
 tags: ['google'],
-before : browser =>  {
-        const google = browser.page.googlePage();
-        google 
-        .navigate()
-        .waitForElementVisible('body', 2000)
-        .assert.title('Google')
-        .assert.visible('@googleSearchInput');
+before : browser => {
+        utils(browser).openBrowser();
     },
-    after : browser => {
-        browser.end(()=>{
-            browser.verify.ok(true, 'Browser closed without error.')
-        })
+after : browser => {
+        utils(browser).closeBrowser();
     },
 'Searching for Interstellar' : browser => {
-    const google = browser.page.googlePage();
-
-    google
-        .setValue('@googleSearchInput', 'interstellar', ()=>{
-            browser.verify.ok(true, 'Value could be set to @googleSearchInput');
-        })
-        .waitForElementVisible('@searchButton', 2000)
-        .click('@searchButton', () => {
-            google.verify.ok(true, 'Click is works on searchButton');
-        })
-        .waitForElementVisible('@movieLink', 2000)
-        .assert.visible('@movieLink')
-        .click('@movieLink', () =>{
-            google.verify.ok(true, 'Click is workins on @movieLink');
-        });
+        utils(browser).searchForInterstellar();
+        utils(browser).createTXTFile(
+            'The chosen movie is: \nInterstellar\n',
+            'bonus_exercise.txt successfully created');  
 }
 };

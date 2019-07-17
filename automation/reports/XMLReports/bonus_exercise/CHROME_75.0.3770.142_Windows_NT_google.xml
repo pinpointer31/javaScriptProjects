@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="bonus_exercise.google"
+    errors="0" failures="0" hostname="" id="" package="bonus_exercise" skipped="0"
+    tests="1" time="4.368" timestamp="">
+  
+    <testcase name="Searching for Interstellar" classname="bonus_exercise.google" time="4.368" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: Cannot read property &#39;appendFile&#39; of undefined[0m
+[0;90m       at Object.Clicking on randomly chosen star (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\tests\bonus_exercise\imdbSearch.js:32:19)
+       at processTicksAndRejections (internal/process/task_queues.js:82:5)
+       at async Object.before (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\tests\bonus_exercise\imdbActorSeach.js:9:8)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -12,6 +12,6 @@
   "author": "Zoltan Timar",
   "license": "ISC",
   "dependencies": {
-    "nightwatch": "^1.1.13"
+    "nightwatch": "^0.9.21"
   }
 }

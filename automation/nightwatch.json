@@ -19,7 +19,7 @@
     "test_settings" : {
         "chrome": {
             "launch_url": "http://localhost",
-            "selenium_port": 4446,
+            "selenium_port": 4444,
             "selenium_host": "localhost",
             "silent": true,
             "screenshots": {

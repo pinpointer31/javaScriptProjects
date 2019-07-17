@@ -1,0 +1,22 @@
+The chosen movie is: 
+Interstellar
+
+The chosen actor is: 
+Matthew McConaughey
+
+Movie 1:
+Dallas Buyers Club
+
+Movie 2:
+Magic Mike
+
+Movie 3:
+Killer Joe
+
+Movie 4:
+Mud
+
+Top news:
+‘True Detective’, Mahershala Ali, Matthew McConaughey & The Oscar Halo Effect
+Link:
+https://www.imdb.com/news/ni62550754?ref_=nm_nwr2

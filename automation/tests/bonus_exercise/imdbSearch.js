@@ -1,5 +1,5 @@
 const google = require('./google');
-require('../../pages/imdbPage');
+const utils = require('../../pages/utils/imdbUtils')
 
 module.exports = {
     tags: ['imdbSearch'],
@@ -8,31 +8,24 @@ module.exports = {
         google["Searching for Interstellar"](browser);
     },
     after : browser => {
-        browser.end(()=>{
-            browser.verify.ok(true, 'Browser closed without error.')
-        })
+        utils(browser).closeBrowser();
     },
-    'Clicking on randomly chosen star' : async browser => {
-        const imdb = browser.page.imdbPage(),
+    'Clicking on randomly chosen star' : browser => {
+    const actors = [
+            browser.page.imdbPage().elements.firstActor.selector,
+            browser.page.imdbPage().elements.secondActor.selector,
+            browser.page.imdbPage().elements.thirdActor.selector
+             ];
+    const randomActor = actors[Math.trunc(Math.random()*2)]; 
 
-         actor = imdb.elements,
-         actors = [
-            actor.firstActor.selector,
-            actor.secondActor.selector,
-            actor.thirdActor.selector
-        ],
-         randomActor = actors[Math.trunc(Math.random()*2)],
-         actorSaved = await browser.getText(randomActor);
-    
-        imdb.waitForElementVisible('body',3000);
-        imdb.assert.title('Interstellar (2014) - IMDb');
-    
-        console.log('\nThe chosen actor is: '+ await actorSaved.value+ '\n');
-        
-        imdb.click(randomActor,()=>{
-            imdb.verify.ok(true, 'Click is workins on randomly chosen actor');
-        });
-    
-        imdb.assert.title(actorSaved.value + ' - IMDb');
+        utils(browser).isAt('Interstellar (2014) - IMDb');
+        browser.getText(randomActor, (result)=>
+        {
+            utils(browser).appendTXT(
+                `\nThe chosen actor is: \n${result.value}\n`, 
+                'bonus_exercise.txt successfully appended (actor)');
+            utils(browser).clickOnRandomStar(randomActor);
+            utils(browser).isAt(`${result.value} - IMDb`);
+        });    
     }
 }

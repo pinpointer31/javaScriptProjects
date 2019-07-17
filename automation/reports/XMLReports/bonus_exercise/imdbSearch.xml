@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="bonus_exercise.imdbSearch"
+    errors="1" failures="0" hostname="" id="" package="bonus_exercise" skipped="0"
+    tests="1" time="0.005000" timestamp="Wed, 17 Jul 2019 11:42:53 GMT">
+  
+    <testcase name="Clicking on randomly chosen star" classname="bonus_exercise.imdbSearch" time="0.005000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Bonus Exercise / Imdb Search / Clicking on randomly chosen star]:
+
+  TypeError: Cannot read property &#39;firstActor&#39; of undefined
+    at Object.Clicking on randomly chosen star (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\tests\bonus_exercise\imdbSearch.js:16:51)
+    at Module.call (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\dev\workspace\JS\Projects\javaScriptProjects\automation\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\node_modules\q\q.js:834:54)
+    at C:\dev\workspace\JS\Projects\javaScriptProjects\automation\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\node_modules\q\q.js:796:13)
+    at C:\dev\workspace\JS\Projects\javaScriptProjects\automation\node_modules\q\q.js:556:49
+    at runSingle (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\node_modules\q\q.js:137:13)
+    at flush (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:72:11)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

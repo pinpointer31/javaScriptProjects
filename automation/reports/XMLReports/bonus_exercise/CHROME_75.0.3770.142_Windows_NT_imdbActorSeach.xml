@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="bonus_exercise.imdbActorSeach"
+    errors="1" failures="1" hostname="" id="" package="bonus_exercise" skipped="0"
+    tests="1" time="5.032" timestamp="">
+  
+    <testcase name="List out four movies and related news of chosen actor " classname="bonus_exercise.imdbActorSeach" time="5.032" assertions="2">  <failure message="Expected element &lt;div:nth-child(1) &gt; div.knownfor-title-role &gt; a&gt; to be present - element was not found - expected [0;32m&#34;present&#34;[0m but got: [0;31m&#34;not present&#34;[0m">    at C:\dev\workspace\JS\Projects\javaScriptProjects\automation\tests\bonus_exercise\imdbActorSeach.js:30:31
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.List out four movies and related news of chosen actor  (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\tests\bonus_exercise\imdbActorSeach.js:29:16)</failure>
+
+    
+
+    <failure message="    at C:\dev\workspace\JS\Projects\javaScriptProjects\automation\tests\bonus_exercise\imdbActorSeach.js:30:31">    at Array.forEach (&lt;anonymous&gt;)
+    at Object.List out four movies and related news of chosen actor  (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\tests\bonus_exercise\imdbActorSeach.js:29:16)</failure>
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  Error: ENOENT: no such file or directory, open &#39;C:\dev\workspace\JS\Projects\log\bonus_ecercise.txt&#39;[0m
+[0;90m   [0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

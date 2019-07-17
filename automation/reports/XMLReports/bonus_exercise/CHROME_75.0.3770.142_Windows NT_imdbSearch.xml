@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="bonus_exercise.imdbSearch"
+    errors="0" failures="0" hostname="" id="" package="bonus_exercise" skipped="0"
+    tests="1" time="15.64" timestamp="Wed, 17 Jul 2019 14:48:56 GMT">
+  
+    <testcase name="Clicking on randomly chosen star" classname="bonus_exercise.imdbSearch" time="15.64" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

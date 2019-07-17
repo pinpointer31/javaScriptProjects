@@ -17,9 +17,6 @@ module.exports = {
          },
          movieFour: {
             selector: 'div.knownfor-title.last > div.knownfor-title-role > a',
-                rating: {
-                    selector: '#title-overview-widget > div.vital > div.title_block > div > div.ratings_wrapper > div.imdbRating > div.ratingValue > strong > span',
-                },
             locateStrategy: 'css',
             timeout: 1000,
          },
@@ -27,6 +24,11 @@ module.exports = {
            selector: '.aux-content-widget-2 > .ipl-simple-list > li:nth-child(2) > a',
            locateStrategy: 'css',
            timeout: 1000,
-       }
+         },
+         rating: {
+           selector: 'strong > span',
+           locateStrategy: 'css',
+           timeout: 1000,
+         }
     }
 }

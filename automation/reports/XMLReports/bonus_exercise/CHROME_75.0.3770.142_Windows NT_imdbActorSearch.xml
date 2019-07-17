@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="bonus_exercise.imdbActorSearch"
+    errors="0" failures="0" hostname="" id="" package="bonus_exercise" skipped="0"
+    tests="1" time="28.00" timestamp="Wed, 17 Jul 2019 15:12:26 GMT">
+  
+    <testcase name="List out four movies by ratings sorted &amp; related news of chosen actor " classname="bonus_exercise.imdbActorSearch" time="28.00" assertions="23">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
