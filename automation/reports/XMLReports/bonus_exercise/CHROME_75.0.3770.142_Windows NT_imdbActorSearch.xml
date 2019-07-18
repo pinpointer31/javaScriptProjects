@@ -5,9 +5,11 @@
 
   <testsuite name="bonus_exercise.imdbActorSearch"
     errors="0" failures="0" hostname="" id="" package="bonus_exercise" skipped="0"
-    tests="1" time="28.00" timestamp="Wed, 17 Jul 2019 15:12:26 GMT">
+    tests="1" time="38.25" timestamp="Thu, 18 Jul 2019 15:13:23 GMT">
   
-    <testcase name="List out four movies by ratings sorted &amp; related news of chosen actor " classname="bonus_exercise.imdbActorSearch" time="28.00" assertions="23">
+    <testcase name="List out four movies by ratings sorted &amp; related news of chosen actor " classname="bonus_exercise.imdbActorSearch" time="38.25" assertions="24">
+
+    
 
     
 

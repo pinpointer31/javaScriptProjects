@@ -1,4 +1,4 @@
-require('../imdbPage_actor')
+require('../imdbActorPage')
 
 module.exports = function(browser){ 
     const fs = require('fs');

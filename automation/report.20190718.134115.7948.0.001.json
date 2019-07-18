@@ -1,0 +1,420 @@
+
+{
+  "header": {
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20190718.134115.7948.0.001.json",
+    "dumpEventTime": "2019-07-18T13:41:15Z",
+    "dumpEventTimeStamp": "1563450075730",
+    "processId": 7948,
+    "cwd": "C:\\dev\\workspace\\JS\\Projects\\javaScriptProjects\\automation",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "nightwatch",
+      "-e",
+      "chrome",
+      "-a",
+      "imdbActorSearch"
+    ],
+    "nodejsVersion": "v12.5.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.5.0",
+      "v8": "7.5.288.22-node.14",
+      "uv": "1.29.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.38.0",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.5.0/node-v12.5.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.5.0/node-v12.5.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.5.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Enterprise",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 3192,
+        "user": 141390,
+        "nice": 0,
+        "sys": 392484,
+        "idle": 13842093,
+        "irq": 180125
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 3192,
+        "user": 141390,
+        "nice": 0,
+        "sys": 392484,
+        "idle": 13842093,
+        "irq": 180125
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 3192,
+        "user": 141390,
+        "nice": 0,
+        "sys": 392484,
+        "idle": 13842093,
+        "irq": 180125
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 3192,
+        "user": 141390,
+        "nice": 0,
+        "sys": 392484,
+        "idle": 13842093,
+        "irq": 180125
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 3192,
+        "user": 141390,
+        "nice": 0,
+        "sys": 392484,
+        "idle": 13842093,
+        "irq": 180125
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 3192,
+        "user": 141390,
+        "nice": 0,
+        "sys": 392484,
+        "idle": 13842093,
+        "irq": 180125
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 3192,
+        "user": 141390,
+        "nice": 0,
+        "sys": 392484,
+        "idle": 13842093,
+        "irq": 180125
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 3192,
+        "user": 141390,
+        "nice": 0,
+        "sys": 392484,
+        "idle": 13842093,
+        "irq": 180125
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 3192,
+        "user": 141390,
+        "nice": 0,
+        "sys": 392484,
+        "idle": 13842093,
+        "irq": 180125
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 3192,
+        "user": 141390,
+        "nice": 0,
+        "sys": 392484,
+        "idle": 13842093,
+        "irq": 180125
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 3192,
+        "user": 141390,
+        "nice": 0,
+        "sys": 392484,
+        "idle": 13842093,
+        "irq": 180125
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+        "speed": 3192,
+        "user": 141390,
+        "nice": 0,
+        "sys": 392484,
+        "idle": 13842093,
+        "irq": 180125
+      }
+    ],
+    "host": "EPHUSZEW0350"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6311a6e09",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10889"
+    },
+    {
+      "pc": "0x00007ff6311aa704",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+25476"
+    },
+    {
+      "pc": "0x00007ff6311a9728",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+21416"
+    },
+    {
+      "pc": "0x00007ff631292f5b",
+      "symbol": "v8::base::CPU::has_sse+38011"
+    },
+    {
+      "pc": "0x00007ff631a77e2e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff631a6017a",
+      "symbol": "v8::SharedArrayBuffer::Externalize+842"
+    },
+    {
+      "pc": "0x00007ff6318f197c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff6318f989f",
+      "symbol": "v8::internal::Heap::OldGenerationSizeOfObjects+4879"
+    },
+    {
+      "pc": "0x00007ff6318efb43",
+      "symbol": "v8::internal::Heap::CollectGarbage+1235"
+    },
+    {
+      "pc": "0x00007ff6318ee3d4",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2292"
+    },
+    {
+      "pc": "0x00007ff63190ceb5",
+      "symbol": "v8::internal::Factory::NewFillerObject+53"
+    },
+    {
+      "pc": "0x00007ff6316c321d",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+3757"
+    },
+    {
+      "pc": "0x00007ff631b20b1d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+614605"
+    },
+    {
+      "pc": "0x00007ff631b363ef",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+702879"
+    },
+    {
+      "pc": "0x000001dc42f4f1f3",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2152103936,
+    "totalCommittedMemory": 2152103936,
+    "usedMemory": 2145681112,
+    "availableMemory": 48010536,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261832,
+        "used": 31960,
+        "available": 229872
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 2097152,
+        "capacity": 1047328,
+        "used": 111536,
+        "available": 935792
+      },
+      "old_space": {
+        "memorySize": 2132684800,
+        "committedMemory": 2132684800,
+        "capacity": 2129061992,
+        "used": 2128975808,
+        "available": 86184
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 425984,
+        "capacity": 183616,
+        "used": 183616,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 528384,
+        "committedMemory": 528384,
+        "capacity": 330800,
+        "used": 330800,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 16056320,
+        "committedMemory": 16056320,
+        "capacity": 16043936,
+        "used": 16043936,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3456,
+        "used": 3456,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047328,
+        "used": 0,
+        "available": 1047328
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 98.25,
+    "kernelCpuSeconds": 1.234,
+    "cpuConsumptionPercent": 136.279,
+    "maxRss": 2244558848,
+    "pageFaults": {
+      "IORequired": 690969,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 242,
+      "writes": 6
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Zoltan_Timar\\AppData\\Roaming",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "EPHUSZEW0350",
+    "COMSPEC": "C:\\WINDOWS\\system32\\cmd.exe",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132061931013783147",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "C:\\Program Files\\Git\\bin",
+    "EXERCISM_HOME": "C:\\Exercism",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GRADLE_HOME": "C:\\Utilities\\Libraries\\gradle-5.4.1",
+    "HOME": "C:\\Users\\Zoltan_Timar",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Zoltan_Timar",
+    "IntelliJ IDEA Community Edition": "C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2019.1.3\\bin;",
+    "JAVA_HOME": "C:\\Utilities\\Libraries\\jdk-8u212",
+    "JRE_HOME": "C:\\Utilities\\Libraries\\jre-8u212",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\Zoltan_Timar\\AppData\\Local",
+    "LOGONSERVER": "\\\\EVHUSZESA0002",
+    "MAVEN_HOME": "C:\\Utilities\\Libraries\\apache-maven-3.6.1",
+    "MSYSTEM": "MINGW64",
+    "NUMBER_OF_PROCESSORS": "12",
+    "OS": "Windows_NT",
+    "OneDrive": "C:\\Users\\Zoltan_Timar\\OneDrive - EPAM",
+    "OneDriveCommercial": "C:\\Users\\Zoltan_Timar\\OneDrive - EPAM",
+    "PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Zoltan_Timar\\bin;C:\\Python27;C:\\Python27\\Scripts;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C:\\WINDOWS\\System32\\OpenSSH;C:\\Program Files\\TortoiseSVN\\bin;C:\\Utilities\\Libraries\\apache-maven-3.6.1\\bin;C:\\Utilities\\Libraries\\gradle-5.4.1\\bin;C:\\Utilities\\Libraries\\jre-8u212\\bin;C:\\Utilities\\Libraries\\jdk-8u212\\bin;C:\\Program Files\\Git\\cmd;C:\\Exercism;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs;C:\\Users\\Zoltan_Timar\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files\\JetBrains\\IntelliJ IDEA Community Edition 2019.1.3\\bin;C:\\Utilities\\Libraries\\jdk-8u212\\bin;C:\\Utilities\\Libraries\\jre-8u212\\bin;.;C:\\Exercism\";C:\\Users\\Zoltan_Timar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Zoltan_Timar\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "9e0a",
+    "PROGRAMFILES": "C:\\Program Files",
+    "PS1": "\\[\\033]0;$TITLEPREFIX:$PWD\\007\\]\\n\\[\\033[32m\\]\\u@\\h \\[\\033[35m\\]$MSYSTEM \\[\\033[33m\\]\\w\\[\\033[36m\\]`__git_ps1`\\[\\033[0m\\]\\n$ ",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "C:/dev/workspace/JS/Projects/javaScriptProjects/automation",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "SESSIONNAME": "Console",
+    "SHLVL": "1",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\ZOLTAN~1\\AppData\\Local\\Temp",
+    "TERM": "cygwin",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.36.1",
+    "TMP": "C:\\Users\\ZOLTAN~1\\AppData\\Local\\Temp",
+    "UATDATA": "C:\\Windows\\CCM\\UATData\\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77",
+    "USERDNSDOMAIN": "BUDAPEST.EPAM.COM",
+    "USERDOMAIN": "BUDAPEST",
+    "USERDOMAIN_ROAMINGPROFILE": "BUDAPEST",
+    "USERNAME": "Zoltan_Timar",
+    "USERPROFILE": "C:\\Users\\Zoltan_Timar",
+    "WINDIR": "C:\\WINDOWS",
+    "_": "C:/Program Files/nodejs/node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\SYSFER.DLL",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll"
+  ]
+}

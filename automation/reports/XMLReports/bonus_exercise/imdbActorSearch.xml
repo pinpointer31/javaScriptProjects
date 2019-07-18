@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="bonus_exercise.imdbActorSearch"
+    errors="1" failures="0" hostname="" id="" package="bonus_exercise" skipped="0"
+    tests="1" time="0.003000" timestamp="Thu, 18 Jul 2019 15:12:31 GMT">
+  
+    <testcase name="List out four movies by ratings sorted &amp; related news of chosen actor " classname="bonus_exercise.imdbActorSearch" time="0.003000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Bonus Exercise / Imdb Actor Search / List out four movies by ratings sorted &amp; related news of chosen actor ]:
+
+  TypeError: browser.page.imdbPage_actor is not a function
+    at Object.List out four movies by ratings sorted &amp; related news of chosen actor  (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\tests\bonus_exercise\imdbActorSearch.js:17:35)
+    at Module.call (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\dev\workspace\JS\Projects\javaScriptProjects\automation\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\node_modules\q\q.js:834:54)
+    at C:\dev\workspace\JS\Projects\javaScriptProjects\automation\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\node_modules\q\q.js:796:13)
+    at C:\dev\workspace\JS\Projects\javaScriptProjects\automation\node_modules\q\q.js:556:49
+    at runSingle (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\node_modules\q\q.js:137:13)
+    at flush (C:\dev\workspace\JS\Projects\javaScriptProjects\automation\node_modules\q\q.js:125:13)
+    at processTicksAndRejections (internal/process/task_queues.js:72:11)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
