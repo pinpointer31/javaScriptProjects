@@ -17,8 +17,10 @@ module.exports = function(browser) {
     };
 
     this.isAt = function(title){
-       browser.waitForElementVisible('body',3000);
-       browser.assert.title(title);
+        browser
+            .waitForElementVisible('body',3000);
+        browser
+            .assert.title(title);
     };
     
     this.appendTXT =  async function (header, log){

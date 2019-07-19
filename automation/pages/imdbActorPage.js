@@ -34,6 +34,11 @@ module.exports = {
             selector: '.title_wrapper h1',
             locateStrategy: 'css',
             timeout: 1000,
+        },
+        directToMovies: {
+            selector: '#filmoform > select > option:nth-child(4)',
+            locateStrategy: 'css',
+            timeout: 1000,
         }
     }
 }

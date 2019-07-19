@@ -2,15 +2,15 @@ The chosen movie is:
 Interstellar
 
 The chosen actor is: 
-Matthew McConaughey
+Anne Hathaway
 
 Top news:
-Zachary Levi Wants to Play Nathan Drake in The Uncharted Movie If Tom Holland Doesn't Work Out
+‘Cats’ Footage Earns Extreme Reactions From Film Journalists Over ‘Insane’ VFX
 Link:
-https://www.imdb.com/news/ni62551358?ref_=nm_nwr2
+https://www.imdb.com/news/ni62553835?ref_=nm_nwr2
 
 The four movies are:
-6.1 Magic Mike (2012)
-6.7 Killer Joe (2011)
-7.4 Mud (2012)
-8.0 Dallas Buyers Club (2013)
+Interstellar | 8.6
+The Dark Knight Rises | 8.4
+Brokeback Mountain | 7.7
+Les Misérables | 7.6

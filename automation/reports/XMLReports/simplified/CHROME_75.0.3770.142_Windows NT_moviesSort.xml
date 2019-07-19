@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="simplified.moviesSort"
+    errors="0" failures="0" hostname="" id="" package="simplified" skipped="0"
+    tests="1" time="21.58" timestamp="Fri, 19 Jul 2019 13:00:57 GMT">
+  
+    <testcase name="List out all the movies and assert if they are correctly ordered by ratings" classname="simplified.moviesSort" time="21.58" assertions="22">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="simplified.google_simplified"
+    errors="0" failures="0" hostname="" id="" package="simplified" skipped="0"
+    tests="1" time="15.30" timestamp="Fri, 19 Jul 2019 08:20:42 GMT">
+  
+    <testcase name="Searching for Interstellar" classname="simplified.google_simplified" time="15.30" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

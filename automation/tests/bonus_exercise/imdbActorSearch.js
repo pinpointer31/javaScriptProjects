@@ -13,7 +13,7 @@ module.exports = {
     after : browser => {
        utils(browser).closeBrowser();
     },
-    'List out four movies by ratings sorted & related news of chosen actor ' : browser => {  
+    'List out four movies by ratings sorted & related news of chosen actor ': browser => {  
     const news = browser.page.imdbActorPage().elements.actorTopRelatedNews.selector;
     const rating = browser.page.imdbActorPage().elements.rating.selector;
     const title = browser.page.imdbActorPage().elements.movieTitle.selector;
@@ -28,15 +28,15 @@ module.exports = {
 
     utils(browser).isElementPresent(news); 
 
-    browser.getText(news, (result)=> {
+    browser.getText(news, result => {
         utils(browser).appendTXT(`\nTop news:\n${result.value}\n`);
     });
 
-    browser.getAttribute(news, 'href', (result)=>{
+    browser.getAttribute(news, 'href', result=> {
         utils(browser).appendTXT(`Link:\n${result.value}`);
     });
 
-    movies.forEach(movie =>{
+    movies.forEach(movie => {
         utils(browser).isElementPresent(movie);
         utils(browser).openInNewWindow(movie);
         browser.pause(1000);
@@ -46,7 +46,7 @@ module.exports = {
         for(let handleIndex = movies.length, index = 0; handleIndex >= 1; handleIndex--, index++){
             browser.switchWindow(handles.value[handleIndex], function () {
                     browser
-                        .getText(rating, rating=>{
+                        .getText(rating, rating => {
                             moviesWithRatings[index] = rating.value;
                         })
                         .getText(title, title => {
@@ -56,11 +56,11 @@ module.exports = {
         }
         utils(browser).appendTXT('\n\nThe four movies are:');
         browser
-            .waitForElementPresent('body', 2000, async ()=>{
+            .waitForElementPresent('body', 2000, async () => {
                 const ordered = await orderBy(moviesWithRatings,'asc');
                 ordered.forEach(movie =>{
                     utils(browser).appendTXT(`\n${movie}`);
-                })
+                });
         })
     });
     }
