@@ -13,6 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "natural-orderby": "^2.0.3",
-    "nightwatch": "^0.9.21"
+    "nightwatch": "^2.6.9"
   }
 }
